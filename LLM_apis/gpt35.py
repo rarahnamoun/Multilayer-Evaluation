@@ -96,7 +96,7 @@ for i, example in enumerate(data):
     data_with_gold.append(example.copy())
     print(f"With Gold - Model Response: {model_response_with_gold}, Extracted Score: {score_with_gold}")
 
-    # Wait before making the next request to avoid hitting the rate limit
+
     time.sleep(REQUEST_DELAY)
 
     # Prompt for scoring without the gold answer
