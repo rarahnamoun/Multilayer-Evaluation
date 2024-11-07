@@ -9,7 +9,7 @@ file_paths = [
     "PQP_updated_data_without_ref_llamma70b_meta-llama_Meta-Llama-3_1-70B-Instruct-Turbo.json"
 ]
 """
-# Load data from all files
+
 data_list = []
 for file_path in file_paths:
     with open(file_path, 'r') as f:
