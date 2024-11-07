@@ -69,7 +69,7 @@ if os.path.exists(tracking_file_path):
 else:
     processed_indices = set()
 
-REQUEST_DELAY = 1  # Adjust as needed
+REQUEST_DELAY = 1 
 
 # Create two copies of the data: one for with gold, one for without
 data_with_gold = []
