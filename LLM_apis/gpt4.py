@@ -112,7 +112,7 @@ for i, example in enumerate(data):
     data_without_gold.append(example.copy())
     print(f"Without Gold - Model Response: {model_response_without_gold}, Extracted Score: {score_without_gold}")
 
-    # Mark this example as processed
+
     processed_indices.add(i)
 
     # Save progress to the tracking file
