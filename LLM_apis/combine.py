@@ -15,7 +15,7 @@ for file_path in file_paths:
     with open(file_path, 'r') as f:
         data_list.append(json.load(f))
 
-# Assuming both files have the same structure and the same number of entries
+
 for i in range(len(data_list[0])):
     entry = data_list[0][i]
     best_model_scores = entry.get("best_model_scores", {})
